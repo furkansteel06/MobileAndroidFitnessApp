@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="318dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="loginBTNOnClickHandler"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/loginregisterET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#5BFFFFFF"
+        android:ems="10"
+        android:hint="Kulanıcı adı"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="#5B6A6565"
+        app:layout_constraintBottom_toTopOf="@+id/passwordET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#5BFFFFFF"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="#5B6A6565"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/loginregisterET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="43dp"
+        android:text="Bir hesabın yokmu ?   Kayıt Ol"
+        android:textColor="#5B070707"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

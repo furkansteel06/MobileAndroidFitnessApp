@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietSheets.KadinActivity3"
+    android:background="@drawable/k">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KADIN DİYET YEMEK LİSTESİ "
+                android:textColor="#311B92"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="               Tost ( 2 dilim tam buğday ekmek,\n
+               2 parmak kalınlığında beyaz/kaşar peynir)\n
+               Zeytin ( 4 adet)\n
+               Domates / Salatalık
+"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="                Türk Kahvesi "
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="                Kısır ( 1 çorba kasesi)\n
+               Çay
+"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Kefir "
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Domates Çorbası\n
+             Nohut Yemeği\n
+             Salata
+"
+                android:textColor="#E65100"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

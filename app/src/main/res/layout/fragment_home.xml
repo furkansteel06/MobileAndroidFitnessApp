@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/k">
+
+    <ImageView
+        android:id="@+id/profilePhotoPIC"
+        android:layout_width="139dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_account_box_24" />
+
+    <TextView
+        android:id="@+id/pUsernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="20dp"
+        android:text="İsim"
+        app:layout_constraintBottom_toTopOf="@+id/firstlastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilePhotoPIC"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/firstlastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="104dp"
+        android:text="Soyisim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilePhotoPIC"
+        app:layout_constraintTop_toBottomOf="@+id/pUsernameTV" />
+
+    <TextView
+        android:id="@+id/jobTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="104dp"
+        android:text="Meslek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profilePhotoPIC"
+        app:layout_constraintTop_toBottomOf="@+id/firstlastName" />
+
+    <TextView
+        android:id="@+id/biographyTV"
+        android:layout_width="344dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="33dp"
+        android:text="Biyografi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePhotoPIC" />
+
+    <TextView
+        android:id="@+id/heightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="131dp"
+        android:text="Boy(cm): "
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePhotoPIC" />
+
+    <TextView
+        android:id="@+id/weightTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="131dp"
+        android:text="Kilo(kg): "
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/heightTV"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/vkiTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="81dp"
+        android:text="Vki durum"
+        app:layout_constraintEnd_toStartOf="@+id/textView_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightTV" />
+
+    <Button
+        android:id="@+id/changeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="73dp"
+        android:text="Profili düzenle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biographyTV"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="75dp"
+        android:text="Durum"
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintStart_toEndOf="@+id/vkiTV"
+        app:layout_constraintTop_toBottomOf="@+id/weightTV" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vkiTV"
+        app:srcCompat="@drawable/baseline_share_location_white_48" />
+
+    <TextView
+        android:id="@+id/autoLocationET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konum Bilginiz Alınamadı"
+        app:layout_constraintBottom_toTopOf="@+id/biographyTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/profilePhotoPIC"
+        app:layout_constraintVertical_bias="0.818" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

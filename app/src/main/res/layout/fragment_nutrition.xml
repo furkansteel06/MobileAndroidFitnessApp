@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErkekActivity1"
+    android:background="@drawable/k">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="79dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 - Daha Fazla Sebze ve Meyve Tüketin"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Hepimizin defalarca duyduğu, dinlediği ve bildiği gibi sebzeler\n
+  ve meyveler sayısız faydaya sahip,  oldukça sağlıklı gıdalar. Lif, \n
+   vitamin, mineral, antiinflamatuar ve antioksidan gibi birçok \n
+   bileşikle dolu. Hatta pek çok büyük gözlemsel çalışma, yüksek \n
+   meyve ve sebze alımını kanser ve kalp rahatsızlıkları gibi \n
+   hastalıkların riskinin azalmasıyla ilişkilendirmiştir (1, 2)."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 – İşlenmiş Gıdaları Sınırlayın"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Clean eating, kelime anlamı itibariyle besinleri olabildiğince\n
+   doğal halleriyle tüketme anlamına geldiği için doğrudan\n
+   işlenmiş gıdalara karşı bir yaşam tarzıdır. Paket ve işlenmiş\n
+   gıdaların çoğunda besin değeri oldukça düşük kalıyor ve\n
+   yeterli lif içermiyorlar. Hatta çoğuna şeker, glikoz şurubu, çeşitli\n
+   kimyasallar ve katkı maddeleri eklendiği için hem boş enerji\n
+   kaynağı oluyor hem de çeşitli hastalıklara neden olabiliyorlar.\n
+   Bu nedenle, temiz beslenmek isteyen bireyler işlenmiş\n
+   gıdalardan mümkün olduğunca kaçmalı."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 – Etiket Okuma Becerisi Kazanın"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Günümüzde sebze-meyve dahi almak istesek artık marketlerde\n
+    paketlenmiş bir şekilde karşılaşabiliyor ya da kuruyemiş, et,\n
+    baklagil gibi besinleri zaten paketle almak zorunda\n
+    kalabiliyoruz. Dolayısıyla burada aldığımız ürünlerin etiketlerini\n
+    mutlaka okumayı bilmeliyiz. Koruyucu, ilave şeker veya\n
+    sağlıksız yağ (örneğin, trans yağ) bulunmadığından emin\n
+    olmalıyız."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 – Rafine Karbonhidrat Tüketmekten Kaçının"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Tüm karbonhidratlar aynı değildir. Karbonhidratı yüksek olan\n
+    pek çok besin, sağlıklı ve besleyicidir. Ancak rafine veya basit\n
+    karbonhidratlar öyle değildir.\n
+    Rafine karbonhidratlar aynı zamanda basit karbonhidratlar\n
+    veya işlenmiş karbonhidratlar olarak da bilinir.\n
+    Bunları şu şekilde sıralayabiliriz: \n
+                  *Şekerler (Sükroz – sofra şekeri)\n
+                  *Yüksek fruktozlu mısır şurubu\n
+                  *Agave şurubu\n
+                  *Rafine edilmiş tahıllar (bunlar lifli ve besleyici kısımları\n
+                   alınmış tahıllardır. En büyük kaynağı buğdaydan yapılan\n
+                   beyaz undur)"
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 – Margarin ve Bazı Bitkisel Yağlardan Uzaklaşın"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Margarinler ve bazı bitkisel yağlar, kimyasal ekstraksiyon\n
+    yoluyla üretiliyorlar ve bu da onları yüksek oranda işlenmiş hale\n
+    getiriyor. Dolayısıyla temiz beslenme kriterlerini karşılamıyorlar."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6 – Alkol Tüketimini Sınırlayın"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Alkol, ezilmiş tahıllara, meyvelere veya sebzelere maya\n
+   eklenerek ve karışımın fermente edilmesine izin verilerek yapılır.\n
+   Bununla birlikte, sık alkol tüketiminin iltihaplanmayı teşvik ettiği\n
+   ve karaciğer hastalığı, sindirim bozuklukları ve aşırı karın yağı\n
+   gibi bir dizi sağlık sorununa neden olabileceği gösterilmiştir\n
+   Temiz bir beslenme yaşam tarzını takip ederken, alkol alımınızı\n
+   en aza indirin veya tamamen ortadan kaldırın"
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7 – Paketlenmiş Atıştırmalık Yiyeceklerden Kaçının"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Krakerler, kekler ve benzeri atıştırmalık yiyecekler tipik olarak\n
+   rafine tahıllar; şeker, bitkisel yağlar ve diğer sağlıksız bileşenler\n
+   içerir. Bu işlenmiş gıdalar çok az besin değeri sağlar. Öğünler\n
+   arasında acıktığınızda bu öğeleri tüketmekten kaçınmak için,\n
+   kabuklu yemişler gibi sağlıklı atıştırmalıklar bulundurun."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 – Su Tüketiminize Önem Verin"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Su; hiçbir katkı maddesi, şeker, yapay tatlandırıcı veya diğer\n
+   şüpheli bileşenleri barındırmaz. Su tanımı gereği, içebileceğiniz\n
+   en temiz içecektir. Temiz bir beslenme yaşam tarzını takip\n
+   ederken ana içeceğiniz olmalıdır.\n
+   Şekersiz kahve ve çay da iyi seçimlerdir ve çeşitli sağlık\n
+   yararları sağlar ancak kafeine duyarlı kişilerin tüketimlerini\n
+   hafifletmesi gerekebilir."
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 – Yetiştirilmiş Hayvan Etlerini Tüketin"
+                android:textColor="#1B5E20"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    Taze, işlenmemiş yiyeceklere ek olarak temiz beslenme; etik\n
+   açıdan yetiştirilmiş hayvanlardan gelen yiyeceklerin \n
+   seçilmesini de içerir."
+
+                android:textColor="#E65100"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

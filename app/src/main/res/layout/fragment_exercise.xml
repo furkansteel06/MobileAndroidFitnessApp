@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c">
+
+
+    <ImageView
+        android:id="@+id/btnTraining"
+        android:layout_width="363dp"
+        android:layout_height="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:src="@drawable/golgelibuyuk" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnExercises"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="Egzersizler"
+                android:textColor="@android:color/white"
+                app:cornerRadius="2dp"
+                app:fButtonColor="#00a0e3"
+                app:shadowEnabled="true"
+                app:shadowHeight="2dp" />
+
+
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="Takvim"
+            android:textColor="@android:color/white"
+            app:cornerRadius="0dp"
+            app:fButtonColor="#00a0e3"
+            app:shadowEnabled="true"
+            app:shadowHeight="2dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vkiInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/century_gothic"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="386dp" />
+
+</RelativeLayout>

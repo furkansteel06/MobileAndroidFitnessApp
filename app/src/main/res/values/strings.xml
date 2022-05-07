@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WM Fitness</string>
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">İsim Soyisim</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Çıkış</string>
+    <string name="menu_egzersiz">Egzersizler</string>
+    <string name="menu_diyet">Diyet</string>
+    <string name="menu_beslenme">Beslenme önerileri</string>
+    <string name="menu_biliyomusun">Bunları biliyor musun?</string>
+    <string name="menu_hakkinda">Hakkında</string>
+    <string name="menu_alarm">Alarm oluştur</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Profil</string>
+    <string name="you_are_thin">Zayıfsın</string>
+    <string name="you_are_healthy">Sağlıklısın</string>
+    <string name="you_are_overweight">Fazla Kilolusun</string>
+    <string name="you_are_obese">Sen Obezsin</string>
+    <string name="weight">Kilo(kg)</string>
+    <string name="height">Boy(cm)</string>
+    <string name="your_bmi_is">VKİ :</string>
+
+    <string-array name="name">
+        <item>Giriş bildirimi 1</item>
+        <item>Giriş bildirimi 2</item>
+        <item>Giriş bildirimi 3</item>
+    </string-array>
+
+</resources>
+
+

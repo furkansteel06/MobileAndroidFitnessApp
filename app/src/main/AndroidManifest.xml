@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wm_fitness"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WM_Fitness.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DietSheets.NoKadinActivity4"></activity>
+        <activity android:name=".DietSheets.NoKadinActivity3" />
+        <activity android:name=".DietSheets.NoKadinActivity2" />
+        <activity android:name=".DietSheets.NoKadinActivity1" />
+        <activity android:name=".DietSheets.NoErkekActivity4" />
+        <activity android:name=".DietSheets.NoErkekActivity3" />
+        <activity android:name=".DietSheets.NoErkekActivity2" />
+        <activity android:name=".DietSheets.NoErkekActivity1" />
+        <activity android:name=".DietSheets.KadinActivity4" />
+        <activity android:name=".DietSheets.KadinActivity3" />
+        <activity android:name=".DietSheets.KadinActivity2" />
+        <activity android:name=".DietSheets.KadinActivity1" />
+        <activity android:name=".DietSheets.ErkekActivity4" />
+        <activity android:name=".DietSheets.ErkekActivity3" />
+        <activity android:name=".DietSheets.ErkekActivity2" />
+        <activity android:name=".DietSheets.ErkekActivity1" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ViewExercise" />
+        <activity android:name=".ListExercises" />
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".DailyTrainingActivity" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDNGNXz6WK_QbPz4w2-AUrVzYBI_ASemj0" />
+
+        <activity
+            android:name=".MainDrawerActivity"
+            android:label="@string/title_activity_main_drawer"
+            android:theme="@style/Theme.WM_Fitness.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

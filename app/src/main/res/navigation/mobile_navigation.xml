@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.wm_fitness.FragmentHomeActivity"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_egzersiz"
+        android:name="com.example.wm_fitness.FragmentExerciseActivity"
+        android:label="@string/menu_egzersiz"
+        tools:layout="@layout/fragment_exercise" />
+
+    <fragment
+        android:id="@+id/nav_diyet"
+        android:name="com.example.wm_fitness.FragmentDietActivity"
+        android:label="@string/menu_diyet"
+        tools:layout="@layout/fragment_diet" />
+
+    <fragment
+        android:id="@+id/nav_beslenme"
+        android:name="com.example.wm_fitness.FragmentNutritionActivity"
+        android:label="@string/menu_beslenme"
+        tools:layout="@layout/fragment_nutrition" />
+    <fragment
+        android:id="@+id/nav_biliyomusun"
+        android:name="com.example.wm_fitness.FragmentDoyouknowActivity"
+        android:label="@string/menu_biliyomusun"
+        tools:layout="@layout/fragment_doyouknow" />
+
+    <fragment
+        android:id="@+id/nav_hakkinda"
+        android:name="com.example.wm_fitness.FragmentAboutActivity"
+        android:label="@string/menu_hakkinda"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_alarm"
+        android:name="com.example.wm_fitness.FragmentAlarmActivity"
+        android:label="@string/menu_alarm"
+        tools:layout="@layout/fragment_alarm" />
+</navigation>

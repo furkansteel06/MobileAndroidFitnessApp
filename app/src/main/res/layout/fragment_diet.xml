@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".FragmentDietActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.WM_Fitness.AppBarOverlay">
+
+
+        //
+        //
+        // Tab layout to show tabs
+        //
+        //
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tbl_pages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="#FFFFFF"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="fixed"
+            app:tabRippleColor="#FFC107"
+            app:tabSelectedTextColor="#FFC107"
+            app:tabTextColor="#FFFFFF" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <!-- <include layout="@layout/content_main" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        //
+        //
+        //ViewPager to show tab's fragments
+        //
+        //
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vp_pages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.viewpager.widget.ViewPager>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

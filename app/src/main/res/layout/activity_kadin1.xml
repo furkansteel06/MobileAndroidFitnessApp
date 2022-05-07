@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietSheets.KadinActivity1"
+    android:background="@drawable/k">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KADIN DİYET YEMEK LİSTESİ "
+                android:textColor="#311B92"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="İLK GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*2gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*3.gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*4.gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*5.gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*6gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+            /*7.gün*/
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.GÜN SABAH"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              2 dilim kepek ekmeği \n
+             3-4 yumurtalı omlet \n
+             Yağsız peynir (50-60 gr)"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              1 adet elma\n
+             portakal\n
+             muz ya da  4-5 adet çilek"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.GÜN ÖĞLE"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              200 gr tavuk ya da yağsız et(haşlanmış ya da ızgara \n
+             1 tabak kepekli makarna\n
+             2 kaşık yağsız yoğurt"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.GÜN ARA ÖĞÜN"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Bir avuç çiğ badem veya 2 ceviz"
+                android:textColor="#E65100"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.GÜN AKŞAM"
+                android:textSize="16dp"
+                android:textColor="#1B5E20"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="              Ton balıklı salatası"
+                android:textColor="#E65100"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

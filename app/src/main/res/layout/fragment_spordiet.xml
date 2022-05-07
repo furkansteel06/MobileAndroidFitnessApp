@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSporDiet"
+    android:background="@drawable/k">
+
+    <TextView
+        android:id="@+id/vkiInfoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="376dp"
+        android:fontFamily="@font/century_gothic"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/erkek1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="53dp"
+        android:text="ERKEK 0-18"
+        app:layout_constraintEnd_toStartOf="@+id/kadin1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/erkek2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="53dp"
+        android:text="ERKEK 18-25"
+        app:layout_constraintEnd_toStartOf="@+id/kadin2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/erkek1" />
+
+    <Button
+        android:id="@+id/erkek3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="53dp"
+        android:text="ERKEK 25-35"
+        app:layout_constraintEnd_toStartOf="@+id/kadin3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/erkek2" />
+
+    <Button
+        android:id="@+id/erkek4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="53dp"
+        android:text="ERKEK 35+  "
+        app:layout_constraintEnd_toStartOf="@+id/kadin4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/erkek3" />
+
+    <Button
+        android:id="@+id/kadin1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="KADIN 0-18"
+        app:layout_constraintBottom_toBottomOf="@+id/erkek1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/erkek1"
+        app:layout_constraintTop_toTopOf="@+id/erkek1" />
+
+    <Button
+        android:id="@+id/kadin2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="28dp"
+        android:text="KADIN 18-25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/erkek2"
+        app:layout_constraintTop_toBottomOf="@+id/kadin1" />
+
+    <Button
+        android:id="@+id/kadin3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:text="KADIN 25-35"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/erkek3"
+        app:layout_constraintTop_toBottomOf="@+id/kadin2" />
+
+    <Button
+        android:id="@+id/kadin4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="28dp"
+        android:text="KADIN 35+  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/erkek4"
+        app:layout_constraintTop_toBottomOf="@+id/kadin3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="374dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dietback" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
